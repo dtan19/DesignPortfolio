@@ -1,0 +1,23 @@
+{
+  "name": "designportfolio",
+  "version": "1.0.0",
+  "description": "My Designer Web Portfolio",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/filmsterdavid/DesignPortfolio.git"
+  },
+  "author": "David Tanner",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/filmsterdavid/DesignPortfolio/issues"
+  },
+  "homepage": "https://github.com/filmsterdavid/DesignPortfolio#readme",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "express": "^4.16.2"
+  }
+}
