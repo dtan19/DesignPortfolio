@@ -1,0 +1,7 @@
+{
+	"name": "David Tanner's Design Portfolio",
+	"description": "A webapp using node and express to showcase my design portfolio",
+	"repository": "https://github.com/filmsterdavid/DesignPortfolio.git",
+	"keywords": ["node", "express", "static"],
+
+}
