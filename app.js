@@ -30,6 +30,28 @@ app.get('/', function(req, res){
 
 });
 
+const server = http.createServer(function (request, response) {
+  router.css(request, response);
+  router.home(request, response);
+  router.user(request, response);
+});
+server.listen(3000);
+
+//css router
+const serveCSS = function (req, res) {
+    if (req.url.indexOf('css') !== -1) {
+        const css = fs.createReadStream(__dirname + req.url, 'utf8');
+        css.pipe(res);
+    }
+};
+
+//app.js
+http.createServer((req, res) => {
+        router.serveCSS(req, res);
+        router.home(req, res);
+        router.user(req, res); 
+});
+
 app.listen(process.env.PORT || 3000, function(){
   console.log("Express server listening on port %d in %s mode", this.address().port, app.settings.env);
 })
