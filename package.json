@@ -3,6 +3,14 @@
   "version": "1.0.0",
   "description": "My Designer Web Portfolio",
   "main": "app.js",
+  "keywords": [
+    "css",
+    "sass",
+    "html",
+    "responsive",
+    "theme",
+    "template"
+  ],
   "scripts": {
     "start": "node app.js"
   },
@@ -17,8 +25,12 @@
   },
   "dependencies": {
     "body-parser": "^1.18.2",
+    "devicons": "^1.8.0",
     "ejs": "^2.5.7",
-    "express": "^4.16.2"
+    "express": "^4.16.2",
+    "jquery": "^3.2.1",
+    "devicons": "^1.8.0",
+    "popper": "^1.0.1"
   },
   "engines": {
     "node": "9.3.0"
