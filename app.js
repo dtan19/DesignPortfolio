@@ -21,15 +21,18 @@ app.use(bodyParser.urlencoded({extended: false}));
 
 //set Static Path
 app.use(express.static(path.join(__dirname, 'public')));
-
+app.use(express.static(path.join(__dirname, 'views')));
 
 app.get('/', function(req, res){
 	res.render('index', {
 		title: 'Cust'
 	});
 
+//app.js
+http.createServer((req, res) => {
+        router.serveCSS(req, res);
 });
-/*
+
 //css router
 const serveCSS = function (req, res) {
     if (req.url.indexOf('css') !== -1) {
@@ -37,14 +40,6 @@ const serveCSS = function (req, res) {
         css.pipe(res);
     }
 };
-
-//app.js
-http.createServer((req, res) => {
-        router.serveCSS(req, res);
-        router.home(req, res);
-        router.user(req, res); 
-});
-*/
 
 
 app.listen(process.env.PORT || 3000, function(){
