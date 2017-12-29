@@ -9,6 +9,14 @@ const app = express();
 	next();
 }
 
+//css router
+const serveCSS = function (req, res) {
+    if (req.url.indexOf('css') !== -1) {
+        const css = fs.createReadStream(__dirname + req.url, 'utf8');
+        css.pipe(res);
+    }
+};
+
 app.use(logger);*/
 
 //view engine
@@ -35,13 +43,6 @@ http.createServer((req, res) => {
 });
 */
 
-//css router
-const serveCSS = function (req, res) {
-    if (req.url.indexOf('css') !== -1) {
-        const css = fs.createReadStream(__dirname + req.url, 'utf8');
-        css.pipe(res);
-    }
-};
 
 
 app.listen(process.env.PORT || 3000, function(){
