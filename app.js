@@ -28,10 +28,12 @@ app.get('/', function(req, res){
 		title: 'Cust'
 	});
 
+/*
 //app.js
 http.createServer((req, res) => {
         router.serveCSS(req, res);
 });
+*/
 
 //css router
 const serveCSS = function (req, res) {
