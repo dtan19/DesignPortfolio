@@ -36,6 +36,7 @@ app.get('/', function(req, res){
 		title: 'Cust'
 	});
 
+});
 /*
 //app.js
 http.createServer((req, res) => {
