@@ -29,7 +29,7 @@ app.get('/', function(req, res){
 	});
 
 });
-
+/*
 //css router
 const serveCSS = function (req, res) {
     if (req.url.indexOf('css') !== -1) {
@@ -44,6 +44,7 @@ http.createServer((req, res) => {
         router.home(req, res);
         router.user(req, res); 
 });
+*/
 
 
 app.listen(process.env.PORT || 3000, function(){
