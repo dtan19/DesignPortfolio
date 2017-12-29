@@ -21,7 +21,7 @@ app.use(bodyParser.urlencoded({extended: false}));
 
 //set Static Path
 app.use(express.static(path.join(__dirname, 'public')));
-app.use(express.static(path.join(__dirname, 'views')));
+app.use(express.static(path.join(__dirname, 'css')));
 
 app.get('/', function(req, res){
 	res.render('index', {
