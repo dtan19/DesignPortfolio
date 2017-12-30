@@ -6782,7 +6782,7 @@ a.bg-dark:focus, a.bg-dark:hover {
 }
 
 .fixed-top {
-  position: fixed;
+  position: sticky;
   top: 0;
   right: 0;
   left: 0;

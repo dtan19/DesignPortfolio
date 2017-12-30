@@ -2,12 +2,21 @@ const express = require('express');
 const bodyParser = require('body-parser');
 const path = require('path');
 
+
 const app = express();
 
-/*const logger = function(req, res, next){
+
+const logger = function(req, res, next){
 	console.log('logging...');
-	next();
+    next();
 }
+
+app.get('/', function(req, res){
+    res.render('index', {
+        title: 'Cust'
+    });
+
+});
 
 //css router
 const serveCSS = function (req, res) {
@@ -17,7 +26,7 @@ const serveCSS = function (req, res) {
     }
 };
 
-app.use(logger);*/
+app.use(logger);
 
 //view engine
 app.set('view engine', 'ejs');
@@ -28,22 +37,8 @@ app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({extended: false}));
 
 //set Static Path
-app.use(express.static(path.join(__dirname, 'public')));
-app.use(express.static(path.join(__dirname, 'css')));
-
-app.get('/', function(req, res){
-	res.render('index', {
-		title: 'Cust'
-	});
-
-});
-/*
-//app.js
-http.createServer((req, res) => {
-        router.serveCSS(req, res);
-});
-*/
-
+app.use(express.static(path.join(__dirname, 'views')));
+app.use(express.static(path.join(__dirname, 'views/css')));
 
 
 app.listen(process.env.PORT || 3000, function(){
