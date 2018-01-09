@@ -11,11 +11,19 @@ const logger = function(req, res, next){
     next();
 }
 
-app.get('/', function(req, res){
-    res.render('index', {
-        title: 'Cust'
-    });
+/*app.get('/', function(req, res){
+    res.render('index');
 
+});*/
+
+app.get('/',function(req,res){
+  res.render('index');
+  //It will find and locate index.html from View or Scripts
+});
+
+app.get('/portfolio',function(req,res){
+  res.render('portfolio');
+  //It will find and locate index.html from View or Scripts
 });
 
 //css router
@@ -25,6 +33,7 @@ const serveCSS = function (req, res) {
         css.pipe(res);
     }
 };
+
 
 app.use(logger);
 
