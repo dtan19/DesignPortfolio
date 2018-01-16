@@ -26,6 +26,11 @@ app.get('/portfolio',function(req,res){
   //It will find and locate index.html from View or Scripts
 });
 
+app.get('/product',function(req,res){
+  res.render('product');
+  //It will find and locate index.html from View or Scripts
+});
+
 //css router
 const serveCSS = function (req, res) {
     if (req.url.indexOf('css') !== -1) {
