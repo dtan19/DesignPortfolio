@@ -11,24 +11,45 @@ const logger = function(req, res, next){
     next();
 }
 
-/*app.get('/', function(req, res){
-    res.render('index');
-
-});*/
 
 app.get('/',function(req,res){
   res.render('index');
-  //It will find and locate index.html from View or Scripts
+  //It will find and locate index.ejs from View or Scripts
 });
 
 app.get('/portfolio',function(req,res){
   res.render('portfolio');
-  //It will find and locate index.html from View or Scripts
+  //It will find and locate portfolio.ejs from View or Scripts
 });
 
 app.get('/product',function(req,res){
   res.render('product');
-  //It will find and locate index.html from View or Scripts
+  //It will find and locate product.ejs from View or Scripts
+});
+
+app.get('/userguide',function(req,res){
+  res.render('userguide');
+  //It will find and locate userguide.ejs from View or Scripts
+});
+
+app.get('/photography',function(req,res){
+  res.render('photography');
+  //It will find and locate photography.ejs from View or Scripts
+});
+
+app.get('/vids',function(req,res){
+  res.render('vids');
+  //It will find and locate vids.ejs from View or Scripts
+});
+
+app.get('/web',function(req,res){
+  res.render('web');
+  //It will find and locate web.ejs from View or Scripts
+});
+
+app.get('/graphics',function(req,res){
+  res.render('graphics');
+  //It will find and locate graphics.ejs from View or Scripts
 });
 
 //css router
