@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="19f65da0-059f-4f81-8fe1-9a5425ef1ad6" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/img/David_Tanner01.jpg" afterPath="$PROJECT_DIR$/views/img/David_Tanner01.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/img/Instructions-Graphic-Design.png" afterPath="$PROJECT_DIR$/views/img/Instructions-Graphic-Design.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/js/pdfModal.js" afterPath="$PROJECT_DIR$/views/js/pdfModal.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/graphics.ejs" afterPath="$PROJECT_DIR$/views/graphics.ejs" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/portfolio.ejs" afterPath="$PROJECT_DIR$/views/portfolio.ejs" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -41,11 +39,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="portfolio.ejs" pinned="false" current-in-tab="false">
+      <file leaf-file-name="portfolio.ejs" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/views/portfolio.ejs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="321">
-              <caret line="77" column="18" lean-forward="true" selection-start-line="77" selection-start-column="18" selection-end-line="77" selection-end-column="18" />
+            <state relative-caret-position="263">
+              <caret line="74" column="354" lean-forward="false" selection-start-line="74" selection-start-column="354" selection-end-line="74" selection-end-column="354" />
               <folding />
             </state>
           </provider>
@@ -64,16 +62,16 @@
       <file leaf-file-name="graphics.ejs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/views/graphics.ejs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="199">
-              <caret line="97" column="42" lean-forward="false" selection-start-line="97" selection-start-column="42" selection-end-line="97" selection-end-column="42" />
+            <state relative-caret-position="194">
+              <caret line="86" column="145" lean-forward="false" selection-start-line="86" selection-start-column="145" selection-end-line="86" selection-end-column="145" />
               <folding>
-                <element signature="e#4407#4414#1#HTML" expanded="true" />
+                <element signature="e#4425#4432#1#HTML" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="pdfModal.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="pdfModal.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/views/js/pdfModal.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="195">
@@ -137,9 +135,9 @@
         <option value="$PROJECT_DIR$/package.json" />
         <option value="$PROJECT_DIR$/views/vendor/bootstrap/css/bootstrap.css" />
         <option value="$PROJECT_DIR$/views/vendor/bootstrap/css/bootstrap.min.css" />
-        <option value="$PROJECT_DIR$/views/graphics.ejs" />
-        <option value="$PROJECT_DIR$/views/portfolio.ejs" />
         <option value="$PROJECT_DIR$/views/js/pdfModal.js" />
+        <option value="$PROJECT_DIR$/views/portfolio.ejs" />
+        <option value="$PROJECT_DIR$/views/graphics.ejs" />
       </list>
     </option>
   </component>
@@ -416,12 +414,12 @@
       <workItem from="1517886860180" duration="4035000" />
       <workItem from="1518287678864" duration="386000" />
       <workItem from="1526957653394" duration="7122000" />
-      <workItem from="1526997189184" duration="16123000" />
+      <workItem from="1526997189184" duration="16711000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="28225000" />
+    <option name="totallyTimeSpent" value="28813000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="824" extended-state="6" />
@@ -600,16 +598,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/views/graphics.ejs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="199">
-          <caret line="97" column="42" lean-forward="false" selection-start-line="97" selection-start-column="42" selection-end-line="97" selection-end-column="42" />
-          <folding>
-            <element signature="e#4407#4414#1#HTML" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/views/vendor/bootstrap/css/bootstrap.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-28">
@@ -618,18 +606,28 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/views/portfolio.ejs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="321">
-          <caret line="77" column="18" lean-forward="true" selection-start-line="77" selection-start-column="18" selection-end-line="77" selection-end-column="18" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/views/js/pdfModal.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="195">
           <caret line="13" column="4" lean-forward="false" selection-start-line="13" selection-start-column="4" selection-end-line="13" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/graphics.ejs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="194">
+          <caret line="86" column="145" lean-forward="false" selection-start-line="86" selection-start-column="145" selection-end-line="86" selection-end-column="145" />
+          <folding>
+            <element signature="e#4425#4432#1#HTML" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/portfolio.ejs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="263">
+          <caret line="74" column="354" lean-forward="false" selection-start-line="74" selection-start-column="354" selection-end-line="74" selection-end-column="354" />
           <folding />
         </state>
       </provider>
