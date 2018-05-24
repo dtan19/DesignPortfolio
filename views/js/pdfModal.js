@@ -11,11 +11,11 @@ var instPdf = '/img/Travler-Hero-5-Instructions.pdf';
 var pkgPdf = '/img/TravlerHerosPackage4.pdf';
 var captionText = document.getElementById("caption");
 instructions.onclick = function(){
-    modal.style.display = "block";
+    //modal.style.display = "block";
     window.open(instPdf);
 }
 packaging.onclick = function(){
-    modal.style.display = "block";
+    //modal.style.display = "block";
     window.open(pkgPdf);
 }
 
