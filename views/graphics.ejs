@@ -24,28 +24,48 @@
     <!-- Custom styles for this template -->
     <link rel="stylesheet" type="text/css" href="views/css/resume.min.css">
 
+      <script type="text/javascript">
+          function openPdf()
+          {
+              var omyFrame = document.getElementById("myFrame");
+              omyFrame.style.display="block";
+              omyFrame.src = "1dummy.pdf";
+          }
+
+          function openPdf1()
+          {
+              var omyFrame = document.getElementById("myFrame");
+              omyFrame.style.display="block";
+              omyFrame.src = "Travler-Hero-5-Instructions.pdf";
+          }
+
+      </script>
+
   </head>
 
   <body id="page-top">
 
-    <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top" id="sideNav">
+
+  <nav class="navbar navbar-expand-lg navbar-dark navbar-bg fixed-top" id="sideNav">
+      <a class="navbar-brand js-scroll-trigger" href="#page-top">
+      </a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
+          <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav">
-          <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="/">Resume</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="/">Portfolio</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="https://www.linkedin.com/in/tannerdavide/">Contact</a>
-          </li>
-        </ul>
+          <ul class="navbar-nav mr-auto">
+              <li class="nav-item">
+                  <a class="nav-link js-scroll-trigger" href="/">Resume</a>
+              </li>
+              <li class="nav-item">
+                  <a class="nav-link js-scroll-trigger" href="/portfolio">Portfolio</a>
+              </li>
+              <li class="nav-item">
+                  <a class="nav-link js-scroll-trigger" href="https://www.linkedin.com/in/tannerdavide/">Contact</a>
+              </li>
+          </ul>
       </div>
-    </nav>
+  </nav>
 
     <div class="container-fluid p-0">
 <!--      <section class="resume-section pl-3 text-md-center" id="">
@@ -55,32 +75,42 @@
 
               <h1 class="hero-heading">David Tanner
           </h1>
-          <h3 class="hero-sub-caption">Interdisciplinary Designer</h3>
+          <h3 class="hero-sub-caption">Graphic Design</h3>
       </section>
 
-      <section>
-        <div class="my-auto">
-          <h2 class="section-heading">Design Portfolio</h2>
-          <div class="row">
-            <div class="section-third col-xs-6 col-sm-6 col-md-6 col-lg-4">
-             <div class="section-block">
-              <img class="img-block" src="img/Travler_Backpack171.jpg" alt="">
-              <div class="section-title">Web</div>
-            </div>
-          </div>
-            <div class="section-third col-xs-6 col-sm-6 col-md-6 col-lg-4">
-              <div class="section-block">
-                <img class="img-block" src="img/apps-block-01.jpg" alt="">
-               <div class="section-title">Apps</div>
-            </div>
-          </div>
-            <div class="section-third col-xs-6 col-sm-6 col-md-6 col-lg-4">
-              <div class="section-block">
-                <img class="img-block" src="img/Travler-Backpack-kickstarter-241.jpg" alt="">
-               <div class="section-title">Product</div>
-            </div>
-          </div>
-      </section>
+        <section class="resume-section pl-3 text-md-center" id="">
+            <p class="">Portfolio built using NodeJS, Express, BootStrap4, and deployed on Heroku.</p>
+        </section>
+
+        <section class="resume-section p-3 p-lg-5 d-flex d-column">
+            <div class="my-auto">
+                <p>As a design entrepreneur I've worn many hats and learned many disciplines. Below you can see some of my work.</p>
+                <div class="row">
+                    <div class="section-third col-xs-6 col-sm-6 col-md-6 col-lg-4">
+                        <div class="section-block">
+                            <a class="section-block" >
+                                <img class="img-block" src="img/graphic-design-01.png" alt="">
+                                <div class="section-title">Print</div></a>
+                        </div>
+                    </div>
+                    <div class="section-third col-xs-6 col-sm-6 col-md-6 col-lg-4">
+                        <div class="section-block">
+                            <img id="myImg" class="img-block" src="img/Packaging-Graphic-Design.png" alt="">
+                            <div class="section-title">Packaging</div>
+                        </div>
+                    </div>
+                    <div id="myModal" class="modal">
+                        <span class="close">&times;</span>
+                        <img class="modal-content" id="instPdf">
+                        <div id="caption"></div>
+                    </div>
+                    <div class="section-third col-xs-6 col-sm-6 col-md-6 col-lg-4">
+                        <div id="'myModal" class="section-block">
+                            <img id="myImg" class="img-block" src="img/Instructions-Graphic-Design.png" alt="">
+                            <div class="section-title">Instructions</div>
+                        </div>
+                    </div>
+        </section>>
      <section>
       <br>
       </section>
@@ -102,6 +132,7 @@
 
     <!-- Custom scripts for this template -->
     <script src="js/resume.min.js"></script>
+    <script src="js/pdfModal.js"></script>
 
   </body>
 
