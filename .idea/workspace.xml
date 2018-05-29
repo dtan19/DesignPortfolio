@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="19f65da0-059f-4f81-8fe1-9a5425ef1ad6" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/img/ganttrack-mockups.jpg" afterPath="$PROJECT_DIR$/views/img/ganttrack-mockups.jpg" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/portfolio.ejs" afterPath="$PROJECT_DIR$/views/portfolio.ejs" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/vendor/bootstrap/css/bootstrap.css" afterPath="$PROJECT_DIR$/views/vendor/bootstrap/css/bootstrap.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/vendor/bootstrap/css/bootstrap.min.css" afterPath="$PROJECT_DIR$/views/vendor/bootstrap/css/bootstrap.min.css" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -33,7 +31,7 @@
       <file leaf-file-name="portfolio.ejs" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/views/portfolio.ejs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
+            <state relative-caret-position="183">
               <caret line="213" column="114" lean-forward="false" selection-start-line="213" selection-start-column="114" selection-end-line="213" selection-end-column="114" />
               <folding>
                 <marker date="1527558109281" expanded="false" signature="8985:8990" ph="&amp;" />
@@ -544,16 +542,15 @@
       <workItem from="1517886860180" duration="4035000" />
       <workItem from="1518287678864" duration="386000" />
       <workItem from="1526957653394" duration="7122000" />
-      <workItem from="1526997189184" duration="37241000" />
+      <workItem from="1526997189184" duration="37694000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="49343000" />
+    <option name="totallyTimeSpent" value="49796000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="824" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info id="Gulp" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24242425" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -563,7 +560,7 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24956064" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.31161472" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.31161472" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -818,7 +815,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/views/portfolio.ejs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
+        <state relative-caret-position="183">
           <caret line="213" column="114" lean-forward="false" selection-start-line="213" selection-start-column="114" selection-end-line="213" selection-end-column="114" />
           <folding>
             <marker date="1527558109281" expanded="false" signature="8985:8990" ph="&amp;" />
