@@ -3,7 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="19f65da0-059f-4f81-8fe1-9a5425ef1ad6" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/photography.ejs" afterPath="$PROJECT_DIR$/views/photography.ejs" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/graphics.ejs" afterPath="$PROJECT_DIR$/views/graphics.ejs" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/portfolio.ejs" afterPath="$PROJECT_DIR$/views/portfolio.ejs" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -31,14 +32,14 @@
       <file leaf-file-name="portfolio.ejs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/views/portfolio.ejs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="400">
-              <caret line="209" column="18" lean-forward="true" selection-start-line="185" selection-start-column="8" selection-end-line="209" selection-end-column="18" />
+            <state relative-caret-position="37">
+              <caret line="104" column="18" lean-forward="false" selection-start-line="104" selection-start-column="18" selection-end-line="104" selection-end-column="18" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="photography.ejs" pinned="false" current-in-tab="true">
+      <file leaf-file-name="photography.ejs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/views/photography.ejs">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="320">
@@ -48,11 +49,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="graphics.ejs" pinned="false" current-in-tab="false">
+      <file leaf-file-name="graphics.ejs" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/views/graphics.ejs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="101">
-              <caret line="48" column="0" lean-forward="false" selection-start-line="48" selection-start-column="0" selection-end-line="67" selection-end-column="8" />
+            <state relative-caret-position="228">
+              <caret line="102" column="29" lean-forward="false" selection-start-line="102" selection-start-column="29" selection-end-line="102" selection-end-column="29" />
               <folding />
             </state>
           </provider>
@@ -175,11 +176,11 @@
         <option value="$PROJECT_DIR$/views/js/video.js" />
         <option value="$PROJECT_DIR$/views/js/modalJs" />
         <option value="$PROJECT_DIR$/views/js/modal.js" />
-        <option value="$PROJECT_DIR$/views/portfolio.ejs" />
         <option value="$PROJECT_DIR$/views/vendor/bootstrap/css/bootstrap.css" />
         <option value="$PROJECT_DIR$/views/vendor/bootstrap/css/bootstrap.min.css" />
-        <option value="$PROJECT_DIR$/views/graphics.ejs" />
         <option value="$PROJECT_DIR$/views/photography.ejs" />
+        <option value="$PROJECT_DIR$/views/portfolio.ejs" />
+        <option value="$PROJECT_DIR$/views/graphics.ejs" />
       </list>
     </option>
   </component>
@@ -424,12 +425,12 @@
       <workItem from="1526957653394" duration="7122000" />
       <workItem from="1526997189184" duration="37966000" />
       <workItem from="1527569195856" duration="308000" />
-      <workItem from="1527651250479" duration="18362000" />
+      <workItem from="1527651250479" duration="19323000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="68738000" />
+    <option name="totallyTimeSpent" value="69699000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="824" extended-state="0" />
@@ -830,26 +831,26 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/views/photography.ejs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="320">
+          <caret line="49" column="6" lean-forward="false" selection-start-line="49" selection-start-column="6" selection-end-line="49" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/views/portfolio.ejs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="400">
-          <caret line="209" column="18" lean-forward="true" selection-start-line="185" selection-start-column="8" selection-end-line="209" selection-end-column="18" />
+        <state relative-caret-position="37">
+          <caret line="104" column="18" lean-forward="false" selection-start-line="104" selection-start-column="18" selection-end-line="104" selection-end-column="18" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/views/graphics.ejs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="101">
-          <caret line="48" column="0" lean-forward="false" selection-start-line="48" selection-start-column="0" selection-end-line="67" selection-end-column="8" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/views/photography.ejs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="320">
-          <caret line="49" column="6" lean-forward="false" selection-start-line="49" selection-start-column="6" selection-end-line="49" selection-end-column="6" />
+        <state relative-caret-position="228">
+          <caret line="102" column="29" lean-forward="false" selection-start-line="102" selection-start-column="29" selection-end-line="102" selection-end-column="29" />
           <folding />
         </state>
       </provider>
