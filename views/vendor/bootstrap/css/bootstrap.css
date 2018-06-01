@@ -677,8 +677,8 @@ pre code {
 .video {
   top: 0;
   left: 0;
-  width: 100%;
-  height: 100%;
+  width: 100% !important;
+  height: auto !important;
 }
 
 @media (min-width:576px) {
@@ -7960,6 +7960,7 @@ pre code {
     padding-bottom: 20px;
     padding-right: 30px;
     padding-left: 30px;
+    padding-top: 15px;
     color: #777;
     text-align: center;
   }
