@@ -4,8 +4,6 @@
     <list default="true" id="19f65da0-059f-4f81-8fe1-9a5425ef1ad6" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/photography.ejs" afterPath="$PROJECT_DIR$/views/photography.ejs" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/vendor/bootstrap/css/bootstrap.css" afterPath="$PROJECT_DIR$/views/vendor/bootstrap/css/bootstrap.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/vendor/bootstrap/css/bootstrap.min.css" afterPath="$PROJECT_DIR$/views/vendor/bootstrap/css/bootstrap.min.css" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -43,8 +41,8 @@
       <file leaf-file-name="photography.ejs" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/views/photography.ejs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="144">
-              <caret line="79" column="48" lean-forward="true" selection-start-line="79" selection-start-column="48" selection-end-line="79" selection-end-column="48" />
+            <state relative-caret-position="264">
+              <caret line="87" column="0" lean-forward="false" selection-start-line="86" selection-start-column="12" selection-end-line="87" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -201,7 +199,7 @@
     <handled-path value="$PROJECT_DIR$/node_modules" />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="y" value="23" />
+    <option name="y" value="173" />
     <option name="width" value="1440" />
     <option name="height" value="824" />
   </component>
@@ -449,10 +447,10 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="85453000" />
+    <option name="totallyTimeSpent" value="86227000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1440" height="824" extended-state="6" />
+    <frame x="0" y="173" width="1440" height="824" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Gulp" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
@@ -947,8 +945,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/views/photography.ejs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="79" column="48" lean-forward="true" selection-start-line="79" selection-start-column="48" selection-end-line="79" selection-end-column="48" />
+        <state relative-caret-position="264">
+          <caret line="87" column="0" lean-forward="false" selection-start-line="86" selection-start-column="12" selection-end-line="87" selection-end-column="0" />
           <folding />
         </state>
       </provider>
