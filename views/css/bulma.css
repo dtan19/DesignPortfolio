@@ -1609,6 +1609,14 @@ a.has-text-danger:hover, a.has-text-danger:focus {
     position: relative;
 }
 
+.wireframe {
+    background-image: url("/img/wireframe-box.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
 .box-reviews {
     background-color: white;
     border-radius: 4px;
