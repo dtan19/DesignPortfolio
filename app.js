@@ -13,8 +13,8 @@ const logger = function(req, res, next){
 
 
 app.get('/',function(req,res){
-  res.render('index');
-  //It will find and locate index.ejs from View or Scripts
+  res.render('web');
+  //It will find and locate web.ejs from View or Scripts
 });
 
 app.get('/portfolio',function(req,res){
@@ -42,13 +42,13 @@ app.get('/vids',function(req,res){
   //It will find and locate vids.ejs from View or Scripts
 });
 
-app.get('/web',function(req,res){
-  res.render('web');
-  //It will find and locate web.ejs from View or Scripts
+app.get('/resume',function(req,res){
+  res.render('resume');
+  //It will find and locate resume.ejs from View or Scripts
 });
 
-app.get('/graphics',function(req,res){
-  res.render('graphics');
+app.get('/saferide',function(req,res){
+  res.render('saferide');
   //It will find and locate graphics.ejs from View or Scripts
 });
 

@@ -1,7 +1,7 @@
 {
   "name": "designportfolio",
   "version": "1.0.0",
-  "description": "My Designer Web Portfolio",
+  "description": "My Web Design Portfolio",
   "main": "app.js",
   "keywords": [
     "css",
@@ -24,19 +24,22 @@
     "url": "https://github.com/filmsterdavid/DesignPortfolio"
   },
   "dependencies": {
-    "body-parser": "^1.18.2",
+    "body-parser": "^1.18.3",
+    "bulma": "^0.7.1",
+    "bulma-start": "0.0.2",
     "devicons": "^1.8.0",
-    "ejs": "^2.5.7",
-    "express": "^4.16.2",
+    "ejs": "^2.6.1",
+    "express": "^4.16.3",
     "grunt-cli": "^1.2.0",
-    "jquery": "^3.2.1",
-    "mongodb": "^3.0.1",
+    "hoek": "^5.0.3",
+    "jquery": "^3.3.1",
+    "mongodb": "^3.1.0",
     "popper": "^1.0.1"
   },
   "engines": {
     "node": "9.3.0"
   },
   "devDependencies": {
-    "nodemon": "^1.14.6"
+    "nodemon": "^1.17.5"
   }
 }

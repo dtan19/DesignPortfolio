@@ -7936,6 +7936,9 @@ pre code {
     color: #fff;
     text-align: center;
     text-transform: uppercase;
+    font-family: acumin-pro, sans-serif;
+    font-style: normal;
+    font-weight: 700;
   }
   .hero-sub-caption {
     right: 15%;
@@ -7948,7 +7951,7 @@ pre code {
   .section-divider-mid-light {
     position: relative;
     overflow: hidden;
-    background: linear-gradient(45deg, #cfdee4, #cfdee4);
+    background: #27377E;
     justify-content: center;
     height: 100%;
     width: 100%;
