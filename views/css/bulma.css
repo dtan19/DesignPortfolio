@@ -913,7 +913,7 @@ a.has-text-dark:hover, a.has-text-dark:focus {
 }
 
 .has-background-dark {
-    background-color: #363636 !important;
+    background-color: #292929 !important;
 }
 
 .has-text-primary {
@@ -1575,6 +1575,15 @@ a.has-text-danger:hover, a.has-text-danger:focus {
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
+}
+
+.saferide-logo {
+    background-image: url("/img/SafeRide-Logo.svg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    height: 100px;
 }
 
 .ganttrack {
@@ -5299,7 +5308,13 @@ a.tag:hover {
 }
 
 .subtitle.is-7 {
-    font-size: 0.75rem;
+     font-size: 0.75rem;
+ }
+
+.subtitle.is-narrow {
+    max-width: 600px;
+    margin: auto;
+    text-align: left;
 }
 
 .heading {
@@ -7564,6 +7579,8 @@ label.panel-block:hover {
 .column-reviews {
     padding-top: 30px;
     padding-bottom: 30px;
+    margin: auto;
+    max-width: 500px;
 }
 
 .columns.is-mobile > .column.is-narrow {
