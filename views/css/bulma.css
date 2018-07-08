@@ -1578,7 +1578,6 @@ a.has-text-danger:hover, a.has-text-danger:focus {
 }
 
 .saferide-logo {
-    background-image: url("/img/SafeRide-Logo.svg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -1600,6 +1599,14 @@ a.has-text-danger:hover, a.has-text-danger:focus {
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
+}
+
+.travler-logo {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    height: 100px;
 }
 
 .shiftdrop {
@@ -4457,6 +4464,11 @@ a.box:active {
     display: block;
     height: auto;
     width: 100%;
+}
+
+.image.block{
+    max-width: 500px;
+    margin: auto;
 }
 
 .image img.is-rounded {
@@ -9815,6 +9827,12 @@ label.panel-block:hover {
     flex-grow: 1;
     flex-shrink: 0;
     padding: 3rem 1.5rem;
+}
+
+.hero-body.logo {
+    flex-grow: 1;
+    flex-shrink: 0;
+    padding: 1rem 1.5rem;
 }
 
 .hero-image {

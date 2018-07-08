@@ -49,7 +49,12 @@ app.get('/resume',function(req,res){
 
 app.get('/saferide',function(req,res){
   res.render('saferide');
-  //It will find and locate graphics.ejs from View or Scripts
+  //It will find and locate saferides.ejs from View or Scripts
+});
+
+app.get('/travler-case-study',function(req,res){
+    res.render('travler-case-study');
+    //It will find and locate travler-case-study.ejs from View or Scripts
 });
 
 //css router
