@@ -5323,10 +5323,25 @@ a.tag:hover {
      font-size: 0.75rem;
  }
 
-.subtitle.is-narrow {
+.subtitle.is-narrow-left {
     max-width: 600px;
     margin: auto;
     text-align: left;
+    padding-bottom: 25px;
+}
+
+.subtitle.is-narrow-centered {
+    max-width: 600px;
+    margin: auto;
+    text-align: center;
+    padding-bottom: 25px;
+}
+
+.subtitle.is-narrow-right {
+    max-width: 600px;
+    margin: auto;
+    text-align: right;
+    padding-bottom: 25px;
 }
 
 .heading {

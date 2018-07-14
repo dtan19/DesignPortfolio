@@ -3,9 +3,10 @@
   <component name="ChangeListManager">
     <list default="true" id="19f65da0-059f-4f81-8fe1-9a5425ef1ad6" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app.js" afterPath="$PROJECT_DIR$/app.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/css/bulma.css" afterPath="$PROJECT_DIR$/views/css/bulma.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/resume.ejs" afterPath="$PROJECT_DIR$/views/resume.ejs" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/saferide.ejs" afterPath="$PROJECT_DIR$/views/saferide.ejs" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/travler-case-study.ejs" afterPath="$PROJECT_DIR$/views/travler-case-study.ejs" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/web.ejs" afterPath="$PROJECT_DIR$/views/web.ejs" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -23,8 +24,8 @@
       <file leaf-file-name="bulma.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/views/css/bulma.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="66915">
-              <caret line="4461" column="0" lean-forward="false" selection-start-line="4461" selection-start-column="0" selection-end-line="4461" selection-end-column="0" />
+            <state relative-caret-position="311">
+              <caret line="5343" column="25" lean-forward="false" selection-start-line="5343" selection-start-column="25" selection-end-line="5343" selection-end-column="25" />
               <folding />
             </state>
           </provider>
@@ -33,7 +34,7 @@
       <file leaf-file-name="portfolio.ejs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/views/portfolio.ejs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3480">
+            <state relative-caret-position="-66">
               <caret line="232" column="71" lean-forward="false" selection-start-line="232" selection-start-column="71" selection-end-line="232" selection-end-column="71" />
               <folding />
             </state>
@@ -59,21 +60,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="web.ejs" pinned="false" current-in-tab="false">
+      <file leaf-file-name="web.ejs" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/views/web.ejs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="945">
-              <caret line="63" column="18" lean-forward="false" selection-start-line="63" selection-start-column="18" selection-end-line="63" selection-end-column="52" />
+            <state relative-caret-position="133">
+              <caret line="238" column="21" lean-forward="false" selection-start-line="238" selection-start-column="21" selection-end-line="238" selection-end-column="21" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="travler-case-study.ejs" pinned="false" current-in-tab="true">
+      <file leaf-file-name="travler-case-study.ejs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/views/travler-case-study.ejs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="326">
-              <caret line="154" column="64" lean-forward="false" selection-start-line="154" selection-start-column="64" selection-end-line="154" selection-end-column="64" />
+            <state relative-caret-position="133">
+              <caret line="53" column="55" lean-forward="false" selection-start-line="53" selection-start-column="46" selection-end-line="53" selection-end-column="55" />
               <folding />
             </state>
           </provider>
@@ -92,8 +93,8 @@
       <file leaf-file-name="saferide.ejs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/views/saferide.ejs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1125">
-              <caret line="75" column="26" lean-forward="false" selection-start-line="75" selection-start-column="26" selection-end-line="75" selection-end-column="26" />
+            <state relative-caret-position="133">
+              <caret line="59" column="49" lean-forward="false" selection-start-line="59" selection-start-column="40" selection-end-line="59" selection-end-column="49" />
               <folding />
             </state>
           </provider>
@@ -118,13 +119,10 @@
       <find>container</find>
       <find>@media screen and (min-width:</find>
       <find>BOX</find>
-      <find>BOX</find>
       <find>columns</find>
-      <find>column</find>
       <find>img-icons</find>
       <find>box-skill</find>
       <find>4.2.1</find>
-      <find>columns</find>
       <find>hoek</find>
       <find>index</find>
       <find>david</find>
@@ -135,7 +133,6 @@
       <find>inline</find>
       <find>has-background</find>
       <find>subtitle</find>
-      <find>is-narrow</find>
       <find>subtitle.</find>
       <find>review</find>
       <find>column-re</find>
@@ -143,6 +140,9 @@
       <find>hero-body</find>
       <find>travler</find>
       <find>img</find>
+      <find>is-narrow</find>
+      <find>padding-bottom</find>
+      <find>is-narrow-cenr</find>
     </findStrings>
     <replaceStrings>
       <replace>section-heading</replace>
@@ -176,12 +176,12 @@
         <option value="$PROJECT_DIR$/views/index.ejs" />
         <option value="$PROJECT_DIR$/package-lock.json" />
         <option value="$PROJECT_DIR$/views/portfolio.ejs" />
-        <option value="$PROJECT_DIR$/views/saferide.ejs" />
-        <option value="$PROJECT_DIR$/views/web.ejs" />
         <option value="$PROJECT_DIR$/app.js" />
-        <option value="$PROJECT_DIR$/views/css/bulma.css" />
         <option value="$PROJECT_DIR$/views/resume.ejs" />
         <option value="$PROJECT_DIR$/views/travler-case-study.ejs" />
+        <option value="$PROJECT_DIR$/views/saferide.ejs" />
+        <option value="$PROJECT_DIR$/views/web.ejs" />
+        <option value="$PROJECT_DIR$/views/css/bulma.css" />
       </list>
     </option>
   </component>
@@ -203,7 +203,7 @@
   </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="12" />
-    <option name="y" value="168" />
+    <option name="y" value="25" />
     <option name="width" value="1400" />
     <option name="height" value="810" />
   </component>
@@ -222,6 +222,21 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
+      <pane id="Scope">
+        <subPane subId="Project Files">
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="DesignPortfolio">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -268,21 +283,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope">
-        <subPane subId="Project Files">
-          <PATH>
-            <PATH_ELEMENT USER_OBJECT="Root">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="DesignPortfolio">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-        </subPane>
-      </pane>
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -411,28 +411,29 @@
       <workItem from="1529204463831" duration="276000" />
       <workItem from="1529354085745" duration="19983000" />
       <workItem from="1529773810615" duration="42776000" />
-      <workItem from="1531016601788" duration="223000" />
+      <workItem from="1531016601788" duration="376000" />
+      <workItem from="1531597563616" duration="1486000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="155476000" />
+    <option name="totallyTimeSpent" value="157115000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="12" y="168" width="1400" height="810" extended-state="0" />
+    <frame x="12" y="25" width="1400" height="810" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Gulp" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24945612" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32803467" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32803467" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24956064" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.31069365" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -780,42 +781,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/views/saferide.ejs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1125">
-          <caret line="75" column="26" lean-forward="false" selection-start-line="75" selection-start-column="26" selection-end-line="75" selection-end-column="26" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="765">
           <caret line="51" column="36" lean-forward="false" selection-start-line="51" selection-start-column="36" selection-end-line="51" selection-end-column="36" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/views/css/bulma.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="66915">
-          <caret line="4461" column="0" lean-forward="false" selection-start-line="4461" selection-start-column="0" selection-end-line="4461" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/views/web.ejs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="945">
-          <caret line="63" column="18" lean-forward="false" selection-start-line="63" selection-start-column="18" selection-end-line="63" selection-end-column="52" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/views/portfolio.ejs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3480">
-          <caret line="232" column="71" lean-forward="false" selection-start-line="232" selection-start-column="71" selection-end-line="232" selection-end-column="71" />
           <folding />
         </state>
       </provider>
@@ -828,10 +797,42 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/views/portfolio.ejs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-66">
+          <caret line="232" column="71" lean-forward="false" selection-start-line="232" selection-start-column="71" selection-end-line="232" selection-end-column="71" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/saferide.ejs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="59" column="49" lean-forward="false" selection-start-line="59" selection-start-column="40" selection-end-line="59" selection-end-column="49" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/views/travler-case-study.ejs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="326">
-          <caret line="154" column="64" lean-forward="false" selection-start-line="154" selection-start-column="64" selection-end-line="154" selection-end-column="64" />
+        <state relative-caret-position="133">
+          <caret line="53" column="55" lean-forward="false" selection-start-line="53" selection-start-column="46" selection-end-line="53" selection-end-column="55" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/css/bulma.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="311">
+          <caret line="5343" column="25" lean-forward="false" selection-start-line="5343" selection-start-column="25" selection-end-line="5343" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/web.ejs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="238" column="21" lean-forward="false" selection-start-line="238" selection-start-column="21" selection-end-line="238" selection-end-column="21" />
           <folding />
         </state>
       </provider>
