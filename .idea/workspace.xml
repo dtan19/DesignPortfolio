@@ -2,8 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="19f65da0-059f-4f81-8fe1-9a5425ef1ad6" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/img/Travler_Leather_GoPro_Case_Front.jpg" afterPath="$PROJECT_DIR$/views/img/Travler_Leather_GoPro_Case_Front.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/img/amzn-4-star.png" afterPath="$PROJECT_DIR$/views/img/amzn-4-star.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/img/travler-social-1.png" afterPath="$PROJECT_DIR$/views/img/travler-social-1.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/img/travler-social-2.png" afterPath="$PROJECT_DIR$/views/img/travler-social-2.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/img/travler-social-3.png" afterPath="$PROJECT_DIR$/views/img/travler-social-3.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/img/travler-social-4.png" afterPath="$PROJECT_DIR$/views/img/travler-social-4.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/img/travler-social-5.png" afterPath="$PROJECT_DIR$/views/img/travler-social-5.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/img/travler-social-6.png" afterPath="$PROJECT_DIR$/views/img/travler-social-6.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/css/bulma.css" afterPath="$PROJECT_DIR$/views/css/bulma.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/travler-case-study.ejs" afterPath="$PROJECT_DIR$/views/travler-case-study.ejs" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/web.ejs" afterPath="$PROJECT_DIR$/views/web.ejs" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -21,8 +31,8 @@
       <file leaf-file-name="bulma.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/views/css/bulma.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="133">
-              <caret line="4669" column="18" lean-forward="false" selection-start-line="4669" selection-start-column="13" selection-end-line="4669" selection-end-column="18" />
+            <state relative-caret-position="239">
+              <caret line="8759" column="9" lean-forward="false" selection-start-line="8759" selection-start-column="1" selection-end-line="8759" selection-end-column="9" />
               <folding />
             </state>
           </provider>
@@ -60,8 +70,8 @@
       <file leaf-file-name="web.ejs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/views/web.ejs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="435">
-              <caret line="238" column="21" lean-forward="false" selection-start-line="238" selection-start-column="21" selection-end-line="238" selection-end-column="21" />
+            <state relative-caret-position="104">
+              <caret line="178" column="60" lean-forward="false" selection-start-line="178" selection-start-column="60" selection-end-line="178" selection-end-column="60" />
               <folding />
             </state>
           </provider>
@@ -70,8 +80,8 @@
       <file leaf-file-name="travler-case-study.ejs" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/views/travler-case-study.ejs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="192">
-              <caret line="94" column="94" lean-forward="false" selection-start-line="94" selection-start-column="94" selection-end-line="94" selection-end-column="94" />
+            <state relative-caret-position="307">
+              <caret line="132" column="18" lean-forward="true" selection-start-line="132" selection-start-column="18" selection-end-line="132" selection-end-column="18" />
               <folding />
             </state>
           </provider>
@@ -111,8 +121,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>hoek</find>
-      <find>index</find>
       <find>david</find>
       <find>box-skills</find>
       <find>list-inline</find>
@@ -127,20 +135,22 @@
       <find>saferide</find>
       <find>hero-body</find>
       <find>travler</find>
-      <find>img</find>
       <find>padding-bottom</find>
       <find>is-narrow-cenr</find>
       <find>social-reviews</find>
       <find>box-rev</find>
-      <find>is-narrow</find>
       <find>soc</find>
       <find>.column</find>
       <find>socil</find>
       <find>column</find>
-      <find>columns</find>
       <find>image</find>
       <find>image</find>
       <find>block</find>
+      <find>social</find>
+      <find>img</find>
+      <find>img</find>
+      <find>is-narrow</find>
+      <find>columns</find>
     </findStrings>
     <replaceStrings>
       <replace>section-heading</replace>
@@ -177,8 +187,8 @@
         <option value="$PROJECT_DIR$/app.js" />
         <option value="$PROJECT_DIR$/views/resume.ejs" />
         <option value="$PROJECT_DIR$/views/saferide.ejs" />
-        <option value="$PROJECT_DIR$/views/web.ejs" />
         <option value="$PROJECT_DIR$/views/css/bulma.css" />
+        <option value="$PROJECT_DIR$/views/web.ejs" />
         <option value="$PROJECT_DIR$/views/travler-case-study.ejs" />
       </list>
     </option>
@@ -410,12 +420,12 @@
       <workItem from="1529354085745" duration="19983000" />
       <workItem from="1529773810615" duration="42776000" />
       <workItem from="1531016601788" duration="376000" />
-      <workItem from="1531597563616" duration="11797000" />
+      <workItem from="1531597563616" duration="15183000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="167426000" />
+    <option name="totallyTimeSpent" value="170812000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="12" y="25" width="1400" height="810" extended-state="0" />
@@ -813,24 +823,24 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/views/web.ejs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="435">
-          <caret line="238" column="21" lean-forward="false" selection-start-line="238" selection-start-column="21" selection-end-line="238" selection-end-column="21" />
+        <state relative-caret-position="104">
+          <caret line="178" column="60" lean-forward="false" selection-start-line="178" selection-start-column="60" selection-end-line="178" selection-end-column="60" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/views/css/bulma.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="4669" column="18" lean-forward="false" selection-start-line="4669" selection-start-column="13" selection-end-line="4669" selection-end-column="18" />
+        <state relative-caret-position="239">
+          <caret line="8759" column="9" lean-forward="false" selection-start-line="8759" selection-start-column="1" selection-end-line="8759" selection-end-column="9" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/views/travler-case-study.ejs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="192">
-          <caret line="94" column="94" lean-forward="false" selection-start-line="94" selection-start-column="94" selection-end-line="94" selection-end-column="94" />
+        <state relative-caret-position="307">
+          <caret line="132" column="18" lean-forward="true" selection-start-line="132" selection-start-column="18" selection-end-line="132" selection-end-column="18" />
           <folding />
         </state>
       </provider>

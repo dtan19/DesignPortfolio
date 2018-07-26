@@ -381,6 +381,10 @@ img {
     width: auto;
 }
 
+.img-reviews {
+    padding-top: 8px;
+}
+
 .inline
 
 input[type="checkbox"],
