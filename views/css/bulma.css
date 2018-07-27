@@ -385,6 +385,10 @@ img {
     padding-top: 8px;
 }
 
+.img-hero {
+    padding-bottom: 25px;
+}
+
 .inline
 
 input[type="checkbox"],
