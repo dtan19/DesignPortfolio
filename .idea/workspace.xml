@@ -2,13 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="19f65da0-059f-4f81-8fe1-9a5425ef1ad6" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/img/ganttrack-social-1.png" afterPath="$PROJECT_DIR$/views/img/ganttrack-social-1.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/birthday-case-study.ejs" afterPath="$PROJECT_DIR$/views/birthday-case-study.ejs" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/css/bulma.css" afterPath="$PROJECT_DIR$/views/css/bulma.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/ganttrack-case-study.ejs" afterPath="$PROJECT_DIR$/views/ganttrack-case-study.ejs" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/saferide-case-study.ejs" afterPath="$PROJECT_DIR$/views/saferide-case-study.ejs" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/travler-case-study.ejs" afterPath="$PROJECT_DIR$/views/travler-case-study.ejs" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/web.ejs" afterPath="$PROJECT_DIR$/views/web.ejs" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -46,8 +41,8 @@
       <file leaf-file-name="web.ejs" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/views/web.ejs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="187" column="62" lean-forward="false" selection-start-line="187" selection-start-column="62" selection-end-line="187" selection-end-column="62" />
+            <state relative-caret-position="257">
+              <caret line="186" column="39" lean-forward="true" selection-start-line="186" selection-start-column="39" selection-end-line="186" selection-end-column="39" />
               <folding />
             </state>
           </provider>
@@ -393,12 +388,12 @@
       <workItem from="1529354085745" duration="19983000" />
       <workItem from="1529773810615" duration="42776000" />
       <workItem from="1531016601788" duration="376000" />
-      <workItem from="1531597563616" duration="22101000" />
+      <workItem from="1531597563616" duration="22333000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="177730000" />
+    <option name="totallyTimeSpent" value="177962000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="12" y="25" width="1428" height="810" extended-state="0" />
@@ -815,8 +810,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/views/web.ejs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="187" column="62" lean-forward="false" selection-start-line="187" selection-start-column="62" selection-end-line="187" selection-end-column="62" />
+        <state relative-caret-position="257">
+          <caret line="186" column="39" lean-forward="true" selection-start-line="186" selection-start-column="39" selection-end-line="186" selection-end-column="39" />
           <folding />
         </state>
       </provider>
