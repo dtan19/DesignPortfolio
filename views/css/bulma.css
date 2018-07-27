@@ -1597,6 +1597,14 @@ a.has-text-danger:hover, a.has-text-danger:focus {
     position: relative;
 }
 
+.ganttrack-logo {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    height: 40px;
+}
+
 .travler {
     background-image: url("/img/travler-box.png");
     background-position: center;
@@ -1615,14 +1623,6 @@ a.has-text-danger:hover, a.has-text-danger:focus {
 
 .shiftdrop {
     background-image: url("/img/shiftdrop-box.png");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    position: relative;
-}
-
-.ganttrack {
-    background-image: url("/img/ganttrack-box.png");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;

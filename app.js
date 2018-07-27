@@ -47,14 +47,29 @@ app.get('/resume',function(req,res){
   //It will find and locate resume.ejs from View or Scripts
 });
 
-app.get('/saferide',function(req,res){
-  res.render('saferide');
+app.get('/saferide-case-study',function(req,res){
+  res.render('saferide-case-study');
   //It will find and locate saferides.ejs from View or Scripts
 });
 
 app.get('/travler-case-study',function(req,res){
     res.render('travler-case-study');
     //It will find and locate travler-case-study.ejs from View or Scripts
+});
+
+app.get('/shiftdrop-case-study',function(req,res){
+    res.render('shiftdrop-case-study');
+    //It will find and locate saferides.ejs from View or Scripts
+});
+
+app.get('/birthday-case-study',function(req,res){
+    res.render('birthday-case-study');
+    //It will find and locate travler-case-study.ejs from View or Scripts
+});
+
+app.get('/ganttrack-case-study',function(req,res){
+    res.render('ganttrack-case-study');
+    //It will find and locate saferides.ejs from View or Scripts
 });
 
 //css router
