@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="19f65da0-059f-4f81-8fe1-9a5425ef1ad6" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/img/ganttrack-social-1.png" afterPath="$PROJECT_DIR$/views/img/ganttrack-social-1.png" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/views/saferide.ejs" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app.js" afterPath="$PROJECT_DIR$/app.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/web.ejs" afterPath="$PROJECT_DIR$/views/web.ejs" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -28,21 +30,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="portfolio.ejs" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/views/portfolio.ejs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-66">
-              <caret line="232" column="71" lean-forward="false" selection-start-line="232" selection-start-column="71" selection-end-line="232" selection-end-column="71" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="web.ejs" pinned="false" current-in-tab="true">
+      <file leaf-file-name="web.ejs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/views/web.ejs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="257">
-              <caret line="186" column="39" lean-forward="true" selection-start-line="186" selection-start-column="39" selection-end-line="186" selection-end-column="39" />
+            <state relative-caret-position="654">
+              <caret line="198" column="53" lean-forward="false" selection-start-line="198" selection-start-column="53" selection-end-line="198" selection-end-column="53" />
               <folding />
             </state>
           </provider>
@@ -51,8 +43,8 @@
       <file leaf-file-name="saferide-case-study.ejs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/views/saferide-case-study.ejs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="146">
-              <caret line="10" column="30" lean-forward="false" selection-start-line="10" selection-start-column="30" selection-end-line="10" selection-end-column="30" />
+            <state relative-caret-position="1184">
+              <caret line="155" column="8" lean-forward="true" selection-start-line="155" selection-start-column="8" selection-end-line="155" selection-end-column="127" />
               <folding />
             </state>
           </provider>
@@ -63,6 +55,16 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="321">
               <caret line="220" column="126" lean-forward="false" selection-start-line="220" selection-start-column="126" selection-end-line="220" selection-end-column="126" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="coming-soon.ejs" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/views/coming-soon.ejs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="236">
+              <caret line="57" column="35" lean-forward="true" selection-start-line="57" selection-start-column="35" selection-end-line="57" selection-end-column="35" />
               <folding />
             </state>
           </provider>
@@ -98,10 +100,10 @@
       <find>img</find>
       <find>img</find>
       <find>columns</find>
-      <find>is-narrow</find>
       <find>gantt</find>
       <find>padding-bottom</find>
       <find>img-reviews</find>
+      <find>is-narrow</find>
     </findStrings>
     <replaceStrings>
       <replace>section-heading</replace>
@@ -136,14 +138,15 @@
         <option value="$PROJECT_DIR$/package-lock.json" />
         <option value="$PROJECT_DIR$/views/portfolio.ejs" />
         <option value="$PROJECT_DIR$/views/saferide.ejs" />
-        <option value="$PROJECT_DIR$/app.js" />
         <option value="$PROJECT_DIR$/views/resume.ejs" />
-        <option value="$PROJECT_DIR$/views/web.ejs" />
         <option value="$PROJECT_DIR$/views/css/bulma.css" />
         <option value="$PROJECT_DIR$/views/birthday-case-study.ejs" />
         <option value="$PROJECT_DIR$/views/saferide-case-study.ejs" />
         <option value="$PROJECT_DIR$/views/travler-case-study.ejs" />
         <option value="$PROJECT_DIR$/views/ganttrack-case-study.ejs" />
+        <option value="$PROJECT_DIR$/app.js" />
+        <option value="$PROJECT_DIR$/views/web.ejs" />
+        <option value="$PROJECT_DIR$/views/coming-soon.ejs" />
       </list>
     </option>
   </component>
@@ -388,12 +391,12 @@
       <workItem from="1529354085745" duration="19983000" />
       <workItem from="1529773810615" duration="42776000" />
       <workItem from="1531016601788" duration="376000" />
-      <workItem from="1531597563616" duration="22333000" />
+      <workItem from="1531597563616" duration="23758000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="177962000" />
+    <option name="totallyTimeSpent" value="179387000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="12" y="25" width="1428" height="810" extended-state="0" />
@@ -661,7 +664,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/views/saferide.ejs">
+    <entry file="file://$PROJECT_DIR$/views/coming-soon.ejs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -728,14 +731,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/views/saferide.ejs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-613">
-          <caret line="50" column="8" lean-forward="true" selection-start-line="50" selection-start-column="8" selection-end-line="51" selection-end-column="131" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/views/shiftdrop-case-study.ejs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -744,49 +739,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/views/portfolio.ejs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-66">
-          <caret line="232" column="71" lean-forward="false" selection-start-line="232" selection-start-column="71" selection-end-line="232" selection-end-column="71" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/views/resume.ejs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="321">
-          <caret line="220" column="126" lean-forward="false" selection-start-line="220" selection-start-column="126" selection-end-line="220" selection-end-column="126" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-663">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/views/css/bulma.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="185">
-          <caret line="386" column="0" lean-forward="true" selection-start-line="386" selection-start-column="0" selection-end-line="386" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/views/birthday-case-study.ejs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="148">
-          <caret line="10" column="30" lean-forward="false" selection-start-line="10" selection-start-column="30" selection-end-line="10" selection-end-column="30" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/views/saferide-case-study.ejs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="146">
           <caret line="10" column="30" lean-forward="false" selection-start-line="10" selection-start-column="30" selection-end-line="10" selection-end-column="30" />
           <folding />
         </state>
@@ -808,10 +763,58 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="76" column="32" lean-forward="false" selection-start-line="76" selection-start-column="32" selection-end-line="76" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/resume.ejs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="321">
+          <caret line="220" column="126" lean-forward="false" selection-start-line="220" selection-start-column="126" selection-end-line="220" selection-end-column="126" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/saferide-case-study.ejs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1184">
+          <caret line="155" column="8" lean-forward="true" selection-start-line="155" selection-start-column="8" selection-end-line="155" selection-end-column="127" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/portfolio.ejs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="131">
+          <caret line="56" column="10" lean-forward="false" selection-start-line="56" selection-start-column="10" selection-end-line="56" selection-end-column="74" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/css/bulma.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="185">
+          <caret line="386" column="0" lean-forward="true" selection-start-line="386" selection-start-column="0" selection-end-line="386" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/views/web.ejs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="257">
-          <caret line="186" column="39" lean-forward="true" selection-start-line="186" selection-start-column="39" selection-end-line="186" selection-end-column="39" />
+        <state relative-caret-position="654">
+          <caret line="198" column="53" lean-forward="false" selection-start-line="198" selection-start-column="53" selection-end-line="198" selection-end-column="53" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/coming-soon.ejs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="236">
+          <caret line="57" column="35" lean-forward="true" selection-start-line="57" selection-start-column="35" selection-end-line="57" selection-end-column="35" />
           <folding />
         </state>
       </provider>

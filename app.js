@@ -72,6 +72,11 @@ app.get('/ganttrack-case-study',function(req,res){
     //It will find and locate saferides.ejs from View or Scripts
 });
 
+app.get('/coming-soon',function(req,res){
+    res.render('coming-soon');
+    //It will find and locate coming-soon.ejs from View or Scripts
+});
+
 //css router
 const serveCSS = function (req, res) {
     if (req.url.indexOf('css') !== -1) {
