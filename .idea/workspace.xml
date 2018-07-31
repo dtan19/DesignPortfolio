@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="19f65da0-059f-4f81-8fe1-9a5425ef1ad6" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/web.ejs" afterPath="$PROJECT_DIR$/views/web.ejs" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/birthday-case-study.ejs" afterPath="$PROJECT_DIR$/views/birthday-case-study.ejs" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/resume.ejs" afterPath="$PROJECT_DIR$/views/resume.ejs" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -28,7 +28,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="web.ejs" pinned="false" current-in-tab="true">
+      <file leaf-file-name="web.ejs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/views/web.ejs">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="277">
@@ -41,8 +41,8 @@
       <file leaf-file-name="birthday-case-study.ejs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/views/birthday-case-study.ejs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="385">
-              <caret line="135" column="156" lean-forward="false" selection-start-line="135" selection-start-column="156" selection-end-line="135" selection-end-column="156" />
+            <state relative-caret-position="-454">
+              <caret line="82" column="10" lean-forward="true" selection-start-line="82" selection-start-column="10" selection-end-line="82" selection-end-column="10" />
               <folding />
             </state>
           </provider>
@@ -58,11 +58,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="resume.ejs" pinned="false" current-in-tab="false">
+      <file leaf-file-name="resume.ejs" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/views/resume.ejs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3300">
-              <caret line="220" column="126" lean-forward="false" selection-start-line="220" selection-start-column="126" selection-end-line="220" selection-end-column="126" />
+            <state relative-caret-position="170">
+              <caret line="282" column="134" lean-forward="false" selection-start-line="282" selection-start-column="134" selection-end-line="282" selection-end-column="134" />
               <folding />
             </state>
           </provider>
@@ -146,15 +146,15 @@
         <option value="$PROJECT_DIR$/package-lock.json" />
         <option value="$PROJECT_DIR$/views/portfolio.ejs" />
         <option value="$PROJECT_DIR$/views/saferide.ejs" />
-        <option value="$PROJECT_DIR$/views/resume.ejs" />
         <option value="$PROJECT_DIR$/views/saferide-case-study.ejs" />
         <option value="$PROJECT_DIR$/app.js" />
         <option value="$PROJECT_DIR$/views/coming-soon.ejs" />
         <option value="$PROJECT_DIR$/views/ganttrack-case-study.ejs" />
         <option value="$PROJECT_DIR$/views/css/bulma.css" />
-        <option value="$PROJECT_DIR$/views/birthday-case-study.ejs" />
         <option value="$PROJECT_DIR$/views/travler-case-study.ejs" />
         <option value="$PROJECT_DIR$/views/web.ejs" />
+        <option value="$PROJECT_DIR$/views/birthday-case-study.ejs" />
+        <option value="$PROJECT_DIR$/views/resume.ejs" />
       </list>
     </option>
   </component>
@@ -176,7 +176,7 @@
   </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="12" />
-    <option name="y" value="23" />
+    <option name="y" value="173" />
     <option name="width" value="1428" />
     <option name="height" value="797" />
   </component>
@@ -401,16 +401,15 @@
       <workItem from="1531016601788" duration="376000" />
       <workItem from="1531597563616" duration="25099000" />
       <workItem from="1533005101840" duration="5121000" />
-      <workItem from="1533046932900" duration="1111000" />
+      <workItem from="1533046932900" duration="1693000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="186960000" />
+    <option name="totallyTimeSpent" value="187542000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="12" y="23" width="1428" height="797" extended-state="0" />
-    <editor active="true" />
+    <frame x="12" y="173" width="1428" height="797" extended-state="0" />
     <layout>
       <window_info id="Gulp" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24449183" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -420,7 +419,7 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24956064" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.31664214" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.31664214" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -745,14 +744,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/views/resume.ejs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3300">
-          <caret line="220" column="126" lean-forward="false" selection-start-line="220" selection-start-column="126" selection-end-line="220" selection-end-column="126" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/views/portfolio.ejs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="131">
@@ -792,14 +783,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/views/birthday-case-study.ejs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="385">
-          <caret line="135" column="156" lean-forward="false" selection-start-line="135" selection-start-column="156" selection-end-line="135" selection-end-column="156" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/views/saferide-case-study.ejs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2325">
@@ -812,6 +795,22 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="277">
           <caret line="230" column="128" lean-forward="true" selection-start-line="230" selection-start-column="128" selection-end-line="230" selection-end-column="128" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/birthday-case-study.ejs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-454">
+          <caret line="82" column="10" lean-forward="true" selection-start-line="82" selection-start-column="10" selection-end-line="82" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/resume.ejs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="282" column="134" lean-forward="false" selection-start-line="282" selection-start-column="134" selection-end-line="282" selection-end-column="134" />
           <folding />
         </state>
       </provider>
