@@ -23,6 +23,7 @@
 
     <!-- Custom styles for this template -->
     <script defer src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
+    <script src="js/chartjs.js"></script>
 </head>
 
 <body id="page-top">
@@ -48,8 +49,8 @@
 
 <section class="hero has-text-centered has-background-dark">
     <div class="hero-body logo">
-        <h1 class="title is-spaced is-size-1-desktop is-size-2-tablet is-size3-mobile has-text-light">UX DESIGN CAPSTONE PROJECT</h1>
-        <h2 class="subtitle is-size-4-desktop is-narrow-centered has-text-light">User Research | User Testing | Visual Design | Product Design</h2>
+        <h1 class="title is-spaced is-size-1-desktop is-size-2-tablet is-size3-mobile has-text-light">UX DESIGN RESEARCH PROJECT</h1>
+        <h2 class="subtitle is-size-4-desktop is-narrow-centered has-text-light">Crowdfunding Case Study</h2>
     </div>
 </section>
 
@@ -58,26 +59,55 @@
         <div class="container">
             <div class="column">
                 <img class="image tall" src="img/birthday-case-study.svg">
-                <p class="subtitle is-6 is-narrow-centered has-text-grey-darker">The concept for birthday was presented to me awhile back by an Entrepreneurial friend that wants a crowd-funded birthday gift app, so I chose this idea for my capstone project in my UX Design bootcamp at Springboard.</p>
+                <p class="subtitle is-6 is-narrow-left has-text-grey-darker">For my capstone project for my UX Design bootcamp at Springboard, I chose a new business idea for a crowdfunding birthday gifting app. The initial concept for the idea features a self-hosted birthday wish. </p>
                 <br>
-                <p class="subtitle is-6 is-narrow-centered has-text-grey-darker">Initially I had some ideas about how the app could function, however it's never a good idea to run into a new market without gathering some research data first. My research started with some secondary research to validate the fact that people are willing to contribute to a crowd-funded gift. I found that there are many options for crowd-funded charities and handful of options for gift giving.</p>
-                <br>
-                <p class="subtitle is-6 is-narrow-centered has-text-grey-darker">I still was not satisfied with the information. There seems to be an intersection between giving to charitable opportunities and giving gifts to a friend. So my goal is to validate that people will donate to a group-led gift giving experience that includes a charitable element.</p>
+                <p class="subtitle is-6 is-narrow-left has-text-grey-darker">I knew that people are willing to contribute to a crowdfunded gift, but I was not sure if they'd contribute to a campaign that someone ran for their own benefit. So let's go build an app.... oh wait, first let's conduct some research.</p>
             </div>
         </div>
     </div>
 </section>
 
-<section class="has-text-centered has-background-primary">
+<section class="has-text-centered">
+        <div class="container">
+            <div class="column">
+                <h1 class="title has-text-centered is-spaced is-size-1-desktop is-size-2-tablet is-size3-mobile has-text-grey-darker">USER RESEARCH</h1>
+                <p class="subtitle is-4 is-narrow-left has-text-grey-darker"><i class="far fa-check-square"></i>  Conduct secondary research for initial validation.</p>
+                <p class="subtitle is-4 is-narrow-left has-text-grey-darker"><i class="far fa-check-square"></i>  Run a screener survey to discover key individuals for interviews.</p>
+                <p class="subtitle is-4 is-narrow-left has-text-grey-darker"><i class="far fa-check-square"></i>  Interview 3-5 participants.</p>
+                <p class="subtitle is-4 is-narrow-left has-text-grey-darker"><i class="far fa-check-square"></i>  Summarize Research findings.</p>
+            </div>
+        </div>
+</section>
+
+<section class="">
     <div class="">
         <div class="container">
             <div class="column">
-                <h1 class="title is-spaced is-size-1-desktop is-size-2-tablet is-size3-mobile has-text-light">RESEARCH PLAN</h1>
-                <p class="subtitle is-4 is-narrow-centered has-text-light">Secondary research for initial validation. <i class="far fa-check-square"></i></p>
-                <p class="subtitle is-4 is-narrow-centered has-text-light">Screener Surveys to discover key individuals for interviews. <i class="far fa-check-square"></i></p>
-                <p class="subtitle is-4 is-narrow-centered has-text-light">Interview 3-5 participants. <i class="far fa-square"></i></p>
-                <p class="subtitle is-4 is-narrow-centered has-text-light">Summarize Research findings. <i class="far fa-square"></i></p>
-                <p class="subtitle is-4 is-narrow-centered has-text-light">Prototype and User Test. <i class="far fa-square"></i></p>
+                <h1 class="title has-text-centered is-spaced is-size-1-desktop is-size-2-tablet is-size3-mobile has-text-grey-darker">RESEARCH FINDINGS</h1>
+                <h3 class="subtitle has-text-centered has-text-grey-darker">Individuals are not willing to donate to an individual that wants a gift for themselves.</h3>
+                <br>
+                <p class="subtitle is-6 is-narrow-left has-text-grey-darker">I ran a brief survey that helped me to narrow down who to interview. I qualified a handful of individuals that fit a range of novice to pro users of crowdfunding platforms such as Kickstarter.</p>
+                <br>
+                <p class="subtitle is-6 is-narrow-left has-text-grey-darker">I then interviewed 4 individuals for my initial research to validate whether or not people will donate to a campaign that is promoted by an individual indicating what birthday gift they'd like to receive.</p>
+                <br>
+                <h3 class="subtitle is-6 is-narrow-left has-text-grey-darker">Main Highlights:</h3>
+                <ul class="">
+                    <li class="subtitle is-6 is-narrow-left">• People are not willing to donate to a self promoting campaign, but are for a group-led campaign.</li>
+                    <li class="subtitle is-6 is-narrow-left">• People are willing to donate to a campaign that gives a gift without getting anything in return.</li>
+                    <li class="subtitle is-6 is-narrow-left">• They would be willing to spend about $20 towards a gift for a friend.</li>
+                    <li class="subtitle is-6 is-narrow-left">• Individuals would be willing to donate about twice as much if a portion goes to a charity.</li>
+                    <li class="subtitle is-6 is-narrow-left">• They expect that between 20-50% will go to a charity.</li>
+                </ul>
+                <br>
+                <p class="subtitle is-6 is-narrow-left has-text-grey-darker">See Research Summary <a href="https://docs.google.com/document/d/1_2veuBsRJdzYsG56yVmZYUfERc8IPWwvGQXuldIV5qQ/edit">here</a>.</p>
+                <p class="subtitle is-6 is-narrow-left has-text-grey-darker">Empathy Map <a href="https://docs.google.com/drawings/d/1IQwsX9SpGujpJpyZtIvgb-DVjf0ZKnKOZNrVQoaaOw8/edit" target="_blank">here</a>.</p>
+                <p class="subtitle is-6 is-narrow-left has-text-grey-darker"></p>
+                <!--div class="chart-radar">
+                    <h2>Chart.js — Radar Chart</h2>
+                    <div>
+                        <canvas id="radarChart" width="400" height="400"></canvas>
+                    </div>
+                </div-->
             </div>
         </div>
     </div>
@@ -86,44 +116,13 @@
 <section class="has-text-centered">
     <div class="">
         <div class="container">
-            <div class="column">
-                <h1 class="title is-spaced is-size-1-desktop is-size-2-tablet is-size3-mobile has-text-grey-darker">MY FINDINGS</h1>
-                <p class="subtitle is-6 is-narrow-centered has-text-grey-darker">The first screener survey I ran focused more on the crowd-funding aspect and gave me great insight. Primarily it validated that people are willing to donate to a gift giving experience where a portion of the funds will go to a charity.</p>
-                <br>
-                <p class="subtitle is-6 is-narrow-centered has-text-grey-darker">Here is what I found:</p>
-                <ul class="">
-                    <li class="">• People are willing to donate to a campaign that gives a gift without getting anything in return.</li>
-                    <li class="">• They would be willing to spend about $20 towards a gift for a friend.</li>
-                    <li class="">• Individuals would be willing to donate about twice as much if a portion goes to a charity.</li>
-                    <li class="">• They expect that between 20-50% will go to a charity.</li>
-                </ul>
-                <p class="subtitle is-6 is-narrow-centered has-text-grey-darker"></p>
-            </div>
-        </div>
-    </div>
-</section>
-
-<section class="has-text-centered has-background-primary">
-    <div class="">
-        <div class="container">
-            <div class="column">
-                <h1 class="title is-spaced is-size-1-desktop is-size-2-tablet is-size3-mobile has-text-light">UNEXPECTED INSIGHTS</h1>
-                <h2 class="subtitle is-5 has-text-light">How people feel about gift giving and group gifts.</h2>
-            </div>
-            <div class="columns">
-                <div class="column-box">
-                    <div class="column-reviews">
-                            <h2 class="">Gift Giving:</h2>
-                        <br>
-                            <h2 class="subtitle  is-6 is-narrow-small has-text-grey-darker">86% of Users prefer to give a gift in person, but also 73% reported that their biggest challenge is not knowing what to give to someone.</h2>
-                    </div>
-                </div>
-                <div class="column-box">
-                    <div class="column-reviews">
-                            <h2 class="">Group Gifts:</h2>
-                        <br>
-                            <h2 class="subtitle  is-6 is-narrow-small has-text-grey-darker">56% of Users enjoy giving a group gift, but also feel that it can be less personal. Individuals enjoy not being singled out for giving a gift, and that it's nice to be able to give a more expensive gift without having to spend a lot.</h2>
-                    </div>
+                <div class="column">
+                    <h1 class="title is-spaced is-size-1-desktop is-size-2-tablet is-size3-mobile has-text-grey-darker">PIVOT</h1>
+                    <p class="subtitle is-6 is-narrow-left has-text-grey-darker">The initial premise of this app was for an individual to define a goal or an item they'd like to receive as a gift for their birthday. However our User Interviews concluded that users are not willing to donate to a self-promoting campaign.</p>
+                    <br>
+                    <p class="subtitle is-6 is-narrow-left has-text-grey-darker">While the User Interviews did validate that some users would donate to a campaign that donated a portion to a charity, the results were not consistent and the use cases for an app of this nature is already available on the market.</p>
+                    <br>
+                    <p class="subtitle is-6 is-narrow-left has-text-grey-darker">The pain points that were identified by multiple users is a frustration with campaigns not doing a good job being transparent with the backers about project delivery time lines, or project status. Thus I've pivoted my capstone project and detailed the validation solution <a href="/ganttrack-case-study">here</a>.</p>
                 </div>
         </div>
     </div>
@@ -132,11 +131,112 @@
 <section class="hero has-text-centered">
     <div class="container">
         <div class="column">
-            <h1 class="title is-spaced is-size-1-desktop is-size-2-tablet is-size3-mobile has-text-grey-darker">USER TESTING</h1>
-            <p class="subtitle is-6 is-narrow-centered has-text-grey-darker">This project is currently in progress and is expected to finish in early Sept. Next steps are to brainstorm ideas, and narrow down to 3 solutions for hands on prototype testing.</p>
+            <h1 class="title is-spaced is-size-1-desktop is-size-2-tablet is-size3-mobile has-text-grey-darker">USER PERSONAS</h1>
+            <p class="subtitle is-6 is-narrow-left has-text-grey-darker">I created a User Persona based on my research and user interviews of those that experience the frustrations of a lack of transparency from crowdfunding campaigns. You can see the details of the Persona <a href="https://docs.google.com/document/d/10ciIPUU5KtjN0ZhpHoByLCPPhhZy_vn3PRn0OV0uSBM/edit" target="_blank">here</a>.</p>
+            <br>
+            <p class="subtitle is-6 is-narrow-left has-text-grey-darker">Rather than running forward with building a prototype to gather additional market validation, I decided that quickest/least expensive way to do this would be to survey actual users that have experienced this pain-point.</p>
+            <br>
+            <p class="subtitle is-6 is-narrow-left has-text-grey-darker">In order to do this, I needed to leverage a colleagues campaign to get access to the users. I explained the value of the survey and that they would receive the shared data. They agreed and posted my survey on their next update. See the results below:</p>
         </div>
     </div>
 </section>
+
+<section class="has-text-centered">
+        <div class="container">
+            <div class="column">
+                <h1 class="title is-spaced is-size-1-desktop is-size-2-tablet is-size3-mobile has-text-grey-darker">BACKER'S EXPECTATIONS</h1>
+                <p class="subtitle is-6 is-narrow-left has-text-grey-darker">To gain confidence and validation on the need for a communications tool, I conducted a survey of backers from a recently completed crowdfunding campaign.</p>
+                <br>
+                <img class="image wide" src="img/Ganttrack-Validation-Survey-Results1.png">
+                <br>
+                <p class="subtitle is-6 is-narrow-left has-text-grey-darker">Giving updates every 2-4 weeks is the optimal or as often as there is big news.</p>
+                <br>
+                <img class="image wide" src="img/Ganttrack-Validation-Survey-Results2.png">
+                <br>
+                <p class="subtitle is-6 is-narrow-left has-text-grey-darker">The majority only wants to receive updates on the high-level items, however a strong enough number of users would like more details, so we'll target to accommodate both.</p>
+                <br>
+                <img class="image wide" src="img/Ganttrack-Validation-Survey-Results3.png">
+                <br>
+                <p class="subtitle is-6 is-narrow-left has-text-grey-darker">Seeing this gives validation to providing access into  the project milestones.</p>
+                <br>
+                <img class="image wide" src="img/Ganttrack-Validation-Survey-Results4.png">
+                <br>
+                <p class="subtitle is-6 is-narrow-left has-text-grey-darker">For backers that back many projects, it was confirmed that they'd like to track them all in one dashboard. Full Survey Details <a href="https://goo.gl/forms/PxhkPvdwE2RmIeuz1" target="_blank">here</a>.</p>
+                <br>
+            </div>
+        </div>
+</section>
+
+<section class="has-text-centered">
+    <div class="container">
+        <div class="column">
+            <h1 class="title is-spaced is-size-1-desktop is-size-2-tablet is-size3-mobile has-text-grey-darker">INFORMATION ARCHITECTURE</h1>
+            <p class="subtitle is-6 is-narrow-left has-text-grey-darker">To help me sort out the details of the app, I ran a Card Sorting activity to understand better how users think about the feature set. My key learning was that communication needs to be core and central to the apps functionality. It cannot be a secondary feature.</p>
+            <br>
+            <img class="image wide" src="img/CardSort2@2x.png">
+            <br>
+            <img class="image wide" src="img/Sitemap.JPG">
+            <br>
+            <p class="subtitle is-6 is-narrow-left has-text-grey-darker">See full Card Sort <a href="https://docs.google.com/document/d/1_LVmUE589DsJSIEbtzD-wiwyhObfshZzFfrxfAkwstY/edit?usp=sharing" target="_blank">here</a>.</p>
+            <br>
+        </div>
+    </div>
+</section>
+
+<section class="has-text-centered">
+    <div class="container">
+        <div class="column">
+            <h1 class="title is-spaced is-size-1-desktop is-size-2-tablet is-size3-mobile has-text-grey-darker">UI SKETCHING</h1>
+            <p class="subtitle is-6 is-narrow-left has-text-grey-darker">Sketching is the least expensive way to work out any UI/UX issues, and my experience here with the Ganttrack sketching was no exception.</p>
+            <br>
+            <img class="image wide" src="img/Sketching-Image.jpg">
+            <br>
+            <p class="subtitle is-6 is-narrow-left has-text-grey-darker">Full UI Sketching report <a href="https://docs.google.com/document/d/1j_u3MFa7iexuEckpAsmdmpWG9vqw449-R3vm5Yd0hj4/edit?usp=sharing" target="_blank">here</a>.</p>
+            <br>
+        </div>
+    </div>
+</section>
+
+<section class="has-text-centered">
+        <div class="container">
+            <div class="column">
+                <h1 class="title is-spaced is-size-1-desktop is-size-2-tablet is-size3-mobile has-text-grey-darker">VISUAL DESIGN</h1>
+                <p class="subtitle is-6 is-narrow-left has-text-grey-darker">Below are screenshots showing my high fidelity prototype that I created for User Testing:</p>
+                <br>
+                <img class="image wide" src="img/Information-Architecture.png">
+                <br>
+                <img class="image wide" src="img/Ganttrack-Prototype-Dashboard.png">
+                <br>
+                <p class="subtitle is-6 is-narrow-centered has-text-grey-darker">See the full click-through prototype <a href="https://projects.invisionapp.com/prototype/cjpe80o810075tq01x8fw7mn3/play" target="_blank">here</a>.</p>
+                <br>
+            </div>
+        </div>
+</section>
+
+<section class="has-text-centered">
+    <div class="container">
+        <div class="column">
+            <h1 class="title is-spaced is-size-1-desktop is-size-2-tablet is-size3-mobile has-text-grey-darker">USER TESTING</h1>
+            <p class="subtitle is-6 is-narrow-left has-text-grey-darker">Clickable prototypes are key to validation, but the results will likely net out a false-positive if done without a plan.</p>
+            <br>
+            <p class="subtitle is-6 is-narrow-left has-text-grey-darker">See the full User Testing plan <a href="https://docs.google.com/document/d/1sWWZkZoGwRxFbR0v9W6Ao_JPa-SHU7BC_InPUniQoCI/edit?usp=sharing" target="_blank">here</a>.</p>
+            <br>
+        </div>
+    </div>
+</section>
+
+<section class="has-text-centered">
+    <div class="">
+        <div class="container">
+            <div class="column">
+                <h1 class="title is-spaced is-size-1-desktop is-size-2-tablet is-size3-mobile has-text-grey-darker">CONCLUSION</h1>
+                <p class="subtitle is-6 is-narrow-left has-text-grey-darker">The results of my User Testing validated that the feature set would be useful to a team that Crowdfunded a project. Although the biggest learning that I gained from the User Testing session taught me that the best strategy for launching this product would be to provide a free product to campaign backers. The app could be used whether or not a project team was using it, and would actually encourage the team to start using it. You can see the full report <a href="https://docs.google.com/document/d/1xjE5cNjWPuPdTCuIXKUF3OJI6VAvOYZwprDRIVWzLTE/edit?usp=sharing" target="_blank">here</a>.</p>
+                <br>
+            </div>
+        </div>
+    </div>
+</section>
+
 
 <section class="hero has-text-centered has-background-black-ter">
     <div class="hero-body">
@@ -160,7 +260,7 @@
 <!--script src="vendor/jquery-easing/jquery.easing.min.js"></script>
 
 <!-- Custom scripts for this template -->
-<!--script src="js/resume.min.js"></script-->
+<!--script src="viewschartjs.jst.js"></script-->
 
 </body>
 
