@@ -4485,6 +4485,11 @@ a.box:active {
     margin: auto;
 }
 
+.image.wide{
+    max-width: 100%;
+    margin: auto;
+}
+
 .image img.is-rounded {
     border-radius: 290486px;
 }
@@ -5341,14 +5346,14 @@ a.tag:hover {
     max-width: 600px;
     margin: auto;
     text-align: left;
-    padding-bottom: 25px;
+    padding-bottom: 0px;
 }
 
 .subtitle.is-narrow-centered {
     max-width: 600px;
     margin: auto;
     text-align: center;
-    padding-bottom: 25px;
+    padding-bottom: 0px;
 }
 
 .subtitle.is-narrow-small {
@@ -7642,6 +7647,41 @@ label.panel-block:hover {
     color: #4a4a4a;
 }
 
+.persona-profile {
+    width: 200px;
+    height: 200px;
+    border: solid 1px #129ecd;
+}
+
+.persona-block {
+    border: solid 1px #129ecd;
+    border-radius: 4px;
+    margin: 5px;
+
+}
+
+.column-persona {
+    flex-basis: 0;
+    flex-grow: .5;
+    flex-shrink: .5;
+    padding: .25rem;
+
+}
+
+.persona-motivations {
+    background-color: #47a3da;
+    color: white;
+    padding-left: 15px;
+    padding-right: 15px;
+    text-align: left;
+    margin: 5px;
+    border-radius: 20px;
+}
+
+.chart-radar {
+    width: 80%;
+    margin: 15px auto;
+}
 
 .columns.is-mobile > .column.is-narrow {
     flex: none;
