@@ -48,24 +48,26 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="ejs" value="1" />
+          <entry key="ejs" value="4" />
+          <entry key="js" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="EJS" value="1" />
+          <entry key="EJS" value="4" />
+          <entry key="JavaScript" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="css" value="113" />
-          <entry key="ejs" value="8442" />
+          <entry key="ejs" value="8460" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="CSS" value="113" />
-          <entry key="EJS" value="8442" />
+          <entry key="EJS" value="8460" />
         </counts>
       </usages-collector>
     </session>
@@ -81,11 +83,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/views/web.ejs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="456">
-              <caret line="202" selection-start-line="202" selection-end-line="226" selection-end-column="12" />
+            <state relative-caret-position="228">
+              <caret line="182" column="49" selection-start-line="182" selection-start-column="49" selection-end-line="182" selection-end-column="49" />
             </state>
           </provider>
         </entry>
@@ -93,17 +95,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/views/ganttrack-case-study.ejs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="9">
-              <caret line="174" column="44" selection-start-line="117" selection-start-column="12" selection-end-line="174" selection-end-column="44" />
+            <state relative-caret-position="2046">
+              <caret line="116" column="31" lean-forward="true" selection-start-line="116" selection-start-column="31" selection-end-line="116" selection-end-column="31" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/views/birthday-case-study.ejs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="297">
-              <caret line="131" column="115" selection-start-line="131" selection-start-column="115" selection-end-line="131" selection-end-column="115" />
+            <state relative-caret-position="2288">
+              <caret line="115" column="229" selection-start-line="115" selection-start-column="229" selection-end-line="115" selection-end-column="229" />
             </state>
           </provider>
         </entry>
@@ -180,7 +182,6 @@
         <option value="$PROJECT_DIR$/views/saferide-case-study.ejs" />
         <option value="$PROJECT_DIR$/views/coming-soon.ejs" />
         <option value="$PROJECT_DIR$/views/travler-case-study.ejs" />
-        <option value="$PROJECT_DIR$/views/web.ejs" />
         <option value="$PROJECT_DIR$/views/resume.ejs" />
         <option value="$PROJECT_DIR$/views/js/resume.js" />
         <option value="$PROJECT_DIR$/gulpfile.js" />
@@ -190,6 +191,7 @@
         <option value="$PROJECT_DIR$/views/ganttrack-case-study.ejs" />
         <option value="$PROJECT_DIR$/views/css/bulma.css" />
         <option value="$PROJECT_DIR$/views/birthday-case-study.ejs" />
+        <option value="$PROJECT_DIR$/views/web.ejs" />
       </list>
     </option>
   </component>
@@ -225,7 +227,25 @@
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
-    <panes />
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="DesignPortfolio" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DesignPortfolio" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="DesignPortfolio" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DesignPortfolio" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="HbShouldOpenHtmlAsHb" value="" />
@@ -317,13 +337,13 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="242538000" />
+    <option name="totallyTimeSpent" value="243083000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="73" y="23" width="1265" height="794" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.32958803" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.32904264" />
       <window_info id="Structure" order="1" weight="0.24956064" />
       <window_info id="npm" order="2" side_tool="true" />
       <window_info id="Favorites" order="3" side_tool="true" />
@@ -546,11 +566,6 @@
     <entry file="file://$PROJECT_DIR$/views/js/video.js">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/views/resume.ejs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-3616" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/views/js/resume.min.js">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -586,13 +601,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/views/portfolio.ejs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="145" column="15" selection-start-line="145" selection-start-column="15" selection-end-line="219" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/views/js/chartjs.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="92">
@@ -607,29 +615,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="69">
-          <caret line="3" selection-start-line="3" selection-end-line="3" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/package.json">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/views/web.ejs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="456">
-          <caret line="202" selection-start-line="202" selection-end-line="226" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/views/ganttrack-case-study.ejs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="9">
-          <caret line="174" column="44" selection-start-line="117" selection-start-column="12" selection-end-line="174" selection-end-column="44" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/views/css/bulma.css">
       <provider selected="true" editor-type-id="text-editor">
@@ -638,10 +625,41 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="69">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/portfolio.ejs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2222">
+          <caret line="151" column="23" lean-forward="true" selection-start-line="151" selection-start-column="23" selection-end-line="151" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/resume.ejs">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/views/birthday-case-study.ejs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="297">
-          <caret line="131" column="115" selection-start-line="131" selection-start-column="115" selection-end-line="131" selection-end-column="115" />
+        <state relative-caret-position="2288">
+          <caret line="115" column="229" selection-start-line="115" selection-start-column="229" selection-end-line="115" selection-end-column="229" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/ganttrack-case-study.ejs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2046">
+          <caret line="116" column="31" lean-forward="true" selection-start-line="116" selection-start-column="31" selection-end-line="116" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/web.ejs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="182" column="49" selection-start-line="182" selection-start-column="49" selection-end-line="182" selection-end-column="49" />
         </state>
       </provider>
     </entry>
