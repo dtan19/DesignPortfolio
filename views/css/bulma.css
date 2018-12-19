@@ -4468,6 +4468,13 @@ a.box:active {
     position: relative;
 }
 
+.image-border {
+    display: block;
+    position: relative;
+    border: solid 1px #129ecd;
+    border-radius: 4px;
+}
+
 .image img {
     display: block;
     height: auto;
@@ -4488,6 +4495,8 @@ a.box:active {
 .image.wide{
     max-width: 100%;
     margin: auto;
+    border: solid 1px #129ecd;
+    border-radius: 4px;
 }
 
 .image img.is-rounded {
@@ -7657,7 +7666,6 @@ label.panel-block:hover {
     border: solid 1px #129ecd;
     border-radius: 4px;
     margin: 5px;
-
 }
 
 .column-persona {
@@ -7673,11 +7681,20 @@ label.panel-block:hover {
     color: white;
     padding-left: 15px;
     padding-right: 15px;
-    text-align: left;
+    text-align: center;
     margin: 5px;
     border-radius: 20px;
 }
 
+.persona-tags {
+    margin-right: 10%;
+    margin-left: 10%;
+}
+
+.persona-mobile {
+    margin-right: 10%;
+    margin-left: 10%;
+}
 .chart-radar {
     width: 80%;
     margin: 15px auto;
