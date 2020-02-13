@@ -933,7 +933,7 @@ a.has-text-primary:hover, a.has-text-primary:focus {
 }
 
 .has-background-primary {
-    background-color: #5AC7EB !important;
+    background-image: linear-gradient(-150deg, #5AC7EB, #209cee);
 }
 
 .has-text-link {
@@ -1009,7 +1009,7 @@ a.has-text-danger:hover, a.has-text-danger:focus {
 }
 
 .has-background-black-ter {
-    background-color: #27377E !important;
+    background-image: linear-gradient(-150deg, #27377E, #209cee);
 }
 
 .has-text-grey-darker {
