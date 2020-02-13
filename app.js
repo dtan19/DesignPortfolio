@@ -77,6 +77,11 @@ app.get('/coming-soon',function(req,res){
     //It will find and locate coming-soon.ejs from View or Scripts
 });
 
+app.get('/react-page',function(req,res){
+  res.render('react-page');
+  //It will find and locate react-page.ejs from View or Scripts
+});
+
 //css router
 const serveCSS = function (req, res) {
     if (req.url.indexOf('css') !== -1) {
