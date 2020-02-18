@@ -3863,20 +3863,20 @@ pre code {
     color: #fff
   }
   .navbar-dark .navbar-nav .nav-link {
-    color: rgba(255, 255, 255, .5)
+    color: #fff
   }
   .navbar-dark .navbar-nav .nav-link:focus,
   .navbar-dark .navbar-nav .nav-link:hover {
-    color: rgba(255, 255, 255, .75)
+    color: rgba(255, 255, 255, .25)
   }
   .navbar-dark .navbar-nav .nav-link.disabled {
-    color: rgba(255, 255, 255, .25)
+    color: rgba(255, 255, 255, .75)
   }
   .navbar-dark .navbar-nav .active>.nav-link,
   .navbar-dark .navbar-nav .nav-link.active,
   .navbar-dark .navbar-nav .nav-link.show,
   .navbar-dark .navbar-nav .show>.nav-link {
-    color: #fff
+    color: #222
   }
   .navbar-dark .navbar-toggler {
     color: rgba(255, 255, 255, .5);
@@ -3894,6 +3894,9 @@ pre code {
   .navbar-dark .navbar-text a:focus,
   .navbar-dark .navbar-text a:hover {
     color: #fff
+  }
+  .navbar-grad {
+    background-image: linear-gradient(-150deg, #5AC7EB, #209cee);
   }
   .card {
     position: relative;
@@ -7951,7 +7954,7 @@ pre code {
   .section-divider-mid-light {
     position: relative;
     overflow: hidden;
-    background: #27377E;
+    background-image: linear-gradient(-150deg, #5AC7EB, #209cee);
     justify-content: center;
     height: 100%;
     width: 100%;
@@ -7960,7 +7963,7 @@ pre code {
   .section-divider-heading {
     height: 100%;
     padding-top: 10px;
-    color: #777;
+    color: #FFF;
     text-align: center;
     text-transform: uppercase;
   }
