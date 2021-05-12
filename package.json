@@ -27,7 +27,7 @@
     "body-parser": "^1.18.3",
     "bulma": "^0.7.1",
     "bulma-start": "0.0.2",
-    "chart.js": "^2.7.2",
+    "chart.js": "^2.9.4",
     "devicons": "^1.8.0",
     "ejs": "^2.6.1",
     "express": "^4.16.3",
