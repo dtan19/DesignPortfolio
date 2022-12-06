@@ -24,13 +24,13 @@
     "url": "https://github.com/filmsterdavid/DesignPortfolio"
   },
   "dependencies": {
-    "body-parser": "^1.18.3",
+    "body-parser": "^1.20.1",
     "bulma": "^0.7.1",
     "bulma-start": "0.0.2",
     "chart.js": "^2.7.2",
     "devicons": "^1.8.0",
     "ejs": "^2.6.1",
-    "express": "^4.16.3",
+    "express": "^4.18.2",
     "grunt-cli": "^1.2.0",
     "gulp": "^3.9.1",
     "hoek": "^5.0.3",
